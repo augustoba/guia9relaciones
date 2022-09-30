@@ -13,6 +13,8 @@ public class MainEjercicio1 {
         service.mostrarPersonas();
         service.mostrarPerros();
         service.adoptarPerro();
+        service.mostrarPerros();
+        service.mostrarPersonas();
     }
 
 }

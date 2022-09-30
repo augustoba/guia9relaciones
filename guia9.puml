@@ -1,0 +1,12 @@
+@startuml
+annotation java.lang.Override
+class ejercicio1.MainEjercicio1
+class ejercicio1.entity.Perro
+class ejercicio1.entity.Persona
+class ejercicio1.service.Service
+ejercicio1.MainEjercicio1 ..> ejercicio1.service.Service
+ejercicio1.entity.Perro ..> java.lang.Override
+ejercicio1.entity.Persona ..> java.lang.Override
+ejercicio1.service.Service ..> ejercicio1.entity.Perro
+ejercicio1.service.Service ..> ejercicio1.entity.Persona
+@enduml

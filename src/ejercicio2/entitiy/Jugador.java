@@ -6,17 +6,12 @@ public class Jugador {
     private Integer id;
     private String nombre;
     private boolean mojado;
-    private static Integer contador;
+    
 
     public Jugador() {
-        this.contador=++contador;
-        
-        if (this.contador>6) {
-            this.id=6;
-            
-        }else   {
-          this.id= this.contador;  
-        }
+        this.mojado=false;
+        this.id =0;
+       
         
     }
 
@@ -50,17 +45,11 @@ public class Jugador {
         this.mojado = mojado;
     }
 
-    public static Integer getContador() {
-        return contador;
-    }
-
-    public static void setContador(Integer contador) {
-        Jugador.contador = contador;
-    }
+    
 
     @Override
     public String toString() {
-        return "Jugador{" + "id=" + id + ", nombre=" + nombre + ", mojado=" + mojado + '}';
+        return   nombre + " N°" + id + " | MOJADO: " + mojado ;
     }
     
 

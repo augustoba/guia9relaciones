@@ -1,35 +1,36 @@
 
 package ejercicio2.service;
 
+
+import ejercicio2.entitiy.Juego;
 import ejercicio2.entitiy.Jugador;
-import ejercicio2.entitiy.Revolver;
 import java.util.*;
 
 public class ServiceJuego {
     
-        private List<Jugador>jugadores;
-        private List<Revolver> balas ;
-        private Scanner read;
-
-    public ServiceJuego() {
-        this.jugadores=new ArrayList();
-        this.balas=new ArrayList();
-        this.read= new  Scanner(System.in);
-    }
+    Scanner read = new Scanner(System.in);
+    ArrayList<Jugador>jugadores = new  ArrayList();
+            
+    public void llenarJuego() {
+        System.out.println("ingrese la cantidad de jugadores");
+        int jug=read.nextInt();
+        
+        for (int i = 0; i < jug; i++) {
+            
+            Jugador jugador = new Jugador();
+            jugador.setNombre("JUGADOR");
+            jugador.setId((i+1));
+            jugador.setMojado(false);
+            jugadores.add(jugador);
+            
+        }
+    }   
     
-        public Jugador crearJugador(){
-            Jugador jugador = new Jugador(); 
-            return jugador;
-        }
-        
-        public Revolver crearRevolver(){
-            Revolver revolver =new Revolver();
-            return revolver;
-        }
-        
-        
-        public  void cargarJuego(){
-            System.out.println("ingrese el nombre del jugador");
-        }
+   
+    
+    
+    
+    
+    
 
 }

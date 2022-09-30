@@ -3,12 +3,19 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/programacion/EGG2/guias%20java/guia9Relaciones/src/ejercicio2/MainEjercicio2.java</file>
-            <file>file:/D:/programacion/EGG2/guias%20java/guia9Relaciones/src/ejercicio2/entitiy/Juego.java</file>
-            <file>file:/D:/programacion/EGG2/guias%20java/guia9Relaciones/src/ejercicio2/entitiy/Revolver.java</file>
-            <file>file:/D:/programacion/EGG2/guias%20java/guia9Relaciones/src/ejercicio2/service/ServiceJugador.java</file>
-            <file>file:/D:/programacion/EGG2/guias%20java/guia9Relaciones/src/ejercicio2/entitiy/Jugador.java</file>
-            <file>file:/D:/programacion/EGG2/guias%20java/guia9Relaciones/src/ejercicio2/service/ServiceJuego.java</file>
+            <file>file:/D:/programacion/EGG2/guias%20java/guia9Relaciones/src/ejercicio3extra/service/ServiceVehiculo.java</file>
+            <file>file:/D:/programacion/EGG2/guias%20java/guia9Relaciones/src/ejercicio3extra/entity/Vehiculo.java</file>
+            <file>file:/D:/programacion/EGG2/guias%20java/guia9Relaciones/src/ejercicio3extra/Enum/NUMERODECUOTA.java</file>
+            <file>file:/D:/programacion/EGG2/guias%20java/guia9Relaciones/src/ejercicio3extra/service/ServicePoliza.java</file>
+            <file>file:/D:/programacion/EGG2/guias%20java/guia9Relaciones/src/ejercicio3extra/Enum/TIPODECOBERTURA.java</file>
+            <file>file:/D:/programacion/EGG2/guias%20java/guia9Relaciones/src/ejercicio3extra/entity/Poliza.java</file>
+            <file>file:/D:/programacion/EGG2/guias%20java/guia9Relaciones/src/ejercicio3extra/Enum/TIPODEVEHICULO.java</file>
+            <file>file:/D:/programacion/EGG2/guias%20java/guia9Relaciones/src/ejercicio3extra/service/ServiceCliente.java</file>
+            <file>file:/D:/programacion/EGG2/guias%20java/guia9Relaciones/src/ejercicio3extra/entity/Cuota.java</file>
+            <file>file:/D:/programacion/EGG2/guias%20java/guia9Relaciones/src/ejercicio3extra/Enum/FORMADEPAGO.java</file>
+            <file>file:/D:/programacion/EGG2/guias%20java/guia9Relaciones/src/ejercicio3extra/service/ServiceCuota.java</file>
+            <file>file:/D:/programacion/EGG2/guias%20java/guia9Relaciones/src/ejercicio3extra/entity/Cliente.java</file>
+            <file>file:/D:/programacion/EGG2/guias%20java/guia9Relaciones/src/ejercicio3extra/MainEjercicio3Extra.java</file>
         </group>
     </open-files>
 </project-private>

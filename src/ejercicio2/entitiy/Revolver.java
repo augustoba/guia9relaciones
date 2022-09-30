@@ -7,6 +7,8 @@ public class Revolver {
     private Integer PosicionAgua;
 
     public Revolver() {
+        this.PosicionAgua=1;
+        this.posicionActual=1;
     }
 
     public Revolver(Integer posicionActual, Integer PosicionAgua) {
@@ -32,7 +34,7 @@ public class Revolver {
 
     @Override
     public String toString() {
-        return "Revolver{" + "posicionActual=" + posicionActual + ", PosicionAgua=" + PosicionAgua + '}';
+        return "posicionActual=" + posicionActual + ", PosicionAgua=" + PosicionAgua ;
     }
     
 
